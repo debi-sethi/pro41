@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script> 
+<script src="js/player.js"></script>
+  
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+
+// Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDqQ0BNN320IRix1f0G7d4GyMYsejIjJ1k",
+  authDomain: "fruit-6fd2b.firebaseapp.com",
+  databaseURL: "https://fruit-6fd2b-default-rtdb.firebaseio.com",
+  projectId: "fruit-6fd2b",
+  storageBucket: "fruit-6fd2b.appspot.com",
+  messagingSenderId: "390994257857",
+  appId: "1:390994257857:web:3cb836e02defa4152cb140"
+};
+
+// Initialize Firebase
+//const app = initializeApp(firebaseConfig);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
